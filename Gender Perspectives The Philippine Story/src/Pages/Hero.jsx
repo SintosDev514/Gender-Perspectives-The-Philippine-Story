@@ -1,49 +1,49 @@
+import React from "react";
 import "../assets/Style/Hero.css";
 import logs from "../assets/imges/logs.png";
-import img1 from "../assets/imges/img1.jpg";
 
+/**
+ * Hero Section Component
+ * @component
+ * @description Main hero section featuring site branding and introductory content
+ * @returns {JSX.Element} Rendered hero section
+ */
 function Hero() {
   return (
-    <>
-      {/* HERO SECTION */}
-      <div className="Hero1 w-full min-h-screen flex flex-col justify-center items-center text-center px-4 py-12">
+    <section
+      className="hero-section"
+      role="banner"
+      aria-labelledby="hero-heading"
+    >
+      {/* Logo Container */}
+      <div className="hero-logo-container ">
         <img
           src={logs}
-          alt="Site Logo"
-          className="logo max-h-[300px] w-auto mb-6"
+          alt="Gender Evolution Philippines - Site Logo"
+          className="hero-logo"
+          width={320}
+          height={260}
+          loading="eager"
         />
+      </div>
 
-        <h1 className="text-4xl md:text-5xl font-bold text-black mb-4">
-          Gender Evolution in the Philippines
+      {/* Content Container */}
+      <div className="hero-content">
+        <h1 id="hero-heading" className="hero-title">
+          Gender Evolution in the
+          <span style={{ color: "#D4AF37" }}> P</span>
+          <span style={{ color: "#7D4F2D" }}>hi</span>
+          <span style={{ color: "#8B4513" }}>lip</span>
+          <span style={{ color: "#654321" }}>pines</span>
         </h1>
 
-        <p className="text-black text-base md:text-lg max-w-2xl px-2">
-          Exploring the historical and contemporary gender roles that shaped
-          Philippine society.
+        <p className="hero-description" style={{ color: "#5D4037" }}>
+          A journey through the shifting gender roles that shaped Filipino
+          identity— from pre-colonial equality to colonial transformations and
+          modern movements for diversity and inclusion.
         </p>
       </div>
-
-      {/* INTRODUCTION SECTION */}
-      <div className="bg-white w-full min-h-screen flex flex-col justify-center items-center text-center px-4 py-12">
-        <img
-          src={img1}
-          alt="Historical representation of gender roles in the Philippines"
-          className="w-full max-w-4xl rounded-md shadow-md mb-8 object-cover"
-          style={{ maxHeight: "900px" }}
-        />
-        <p className="text-gray-800 leading-relaxed max-w-3xl text-base md:text-lg px-4">
-          Gender roles in the Philippines have undergone significant transitions
-          throughout history. From the relative equality present in pre-colonial
-          communities, to the patriarchal norms established during the Spanish
-          and American colonial periods, and finally to the diverse identities
-          embraced in modern times—these developments reflect how Filipino
-          society continues to adapt and evolve. This website provides a
-          comprehensive exploration of these changes through historical
-          analysis, contemporary perspectives, and the cultural, political, and
-          economic forces that continue to shape gender in the Philippines.
-        </p>
-      </div>
-    </>
+    </section>
   );
 }
 
