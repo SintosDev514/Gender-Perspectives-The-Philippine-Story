@@ -19,10 +19,10 @@ function Hero() {
       <div className="hero-content">
         <h1 id="hero-heading" className="hero-title">
           Gender Evolution in the
-          <span style={{ color: "#D4AF37" }}> P</span>
-          <span style={{ color: "#7D4F2D" }}>hi</span>
-          <span style={{ color: "#8B4513" }}>lip</span>
-          <span style={{ color: "#654321" }}>pines</span>
+          <span style={{ color: "white" }}> P</span>
+          <span style={{ color: "yellow" }}>hi</span>
+          <span style={{ color: "red" }}>lip</span>
+          <span style={{ color: "blue" }}>pines</span>
         </h1>
 
         <p className="hero-description" style={{ color: "#5D4037" }}>
