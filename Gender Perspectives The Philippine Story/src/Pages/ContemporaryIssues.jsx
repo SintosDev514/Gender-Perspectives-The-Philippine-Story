@@ -1,6 +1,6 @@
 import React from "react";
 import w from "../assets/imges/w.JPG";
-import ww from "../assets/imges/wW.JPG";
+import ww from "../assets/images/wW.JPG";
 
 function ContemporaryIssues() {
   return (
