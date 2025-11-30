@@ -1,6 +1,5 @@
 import React from "react";
 import "../assets/Style/Hero.css";
-import logs from "../assets/imges/logs.png";
 
 /**
  * Hero Section Component
@@ -25,7 +24,7 @@ function Hero() {
           <span style={{ color: "blue" }}>pines</span>
         </h1>
 
-        <p className="hero-description" style={{ color: "#5D4037" }}>
+        <p className="hero-description" style={{ color: "#2d3748" }}>
           A journey through the shifting gender roles that shaped Filipino
           identity— from pre-colonial equality to colonial transformations and
           modern movements for diversity and inclusion.

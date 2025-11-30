@@ -6,8 +6,7 @@ const Footer = () => {
   const footerContent = {
     title: "Gender Evolution in the Philippines",
     description:
-      "An academic research initiative exploring historical and contemporary gender roles in Philippine society through scholarly analysis and evidence-based research.",
-    copyright: "All Rights Reserved.",
+      "A multimedia course output exploring historical and contemporary gender roles in Philippine society through curated information and creative presentation.",
   };
 
   return (
@@ -49,9 +48,6 @@ const Footer = () => {
                 Contact Research Team
               </a>
             </div>
-            <div className="text-amber-400 text-xs italic">
-              Peer-Reviewed Academic Content
-            </div>
           </div>
         </div>
 
@@ -66,27 +62,20 @@ const Footer = () => {
               {footerContent.copyright}
             </p>
             <p className="text-amber-400 text-xs mt-1">
-              This academic research may be cited with proper attribution
+              This academic output may be cited, provided proper attribution is
+              given to the creators.”
             </p>
           </div>
 
           {/* Academic Credentials */}
-          <div className="flex flex-col items-center md:items-end space-y-1">
-            <span className="text-amber-400 text-sm font-medium">
-              Academic Research Project
-            </span>
-            <span className="text-amber-500 text-xs">
-              Gender Studies • Historical Analysis • Cultural Anthropology
-            </span>
-          </div>
         </div>
 
         {/* Research Methodology Note */}
         <div className="mt-6 pt-4 border-t border-amber-800">
           <p className="text-amber-500 text-xs text-center italic">
-            This research adheres to academic standards of historical
-            methodology, employs peer-reviewed sources where applicable, and
-            maintains scholarly integrity in all presented content.
+            This output adheres to academic conventions of historical analysis,
+            incorporates reliable sources, and maintains integrity throughout
+            all presented material.
           </p>
         </div>
       </div>
