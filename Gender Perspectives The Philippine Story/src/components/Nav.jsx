@@ -44,7 +44,7 @@ const Nav = () => {
             Gender Evolution PH
             <br />
             <span className="text-amber-600 text-sm font-normal">
-              Academic Research
+              Multimedia Course Output
             </span>
           </span>
         </div>

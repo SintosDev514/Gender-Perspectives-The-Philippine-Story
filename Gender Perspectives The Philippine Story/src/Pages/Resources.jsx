@@ -89,27 +89,12 @@ function Resources() {
     <div className="w-full min-h-screen bg-amber-50 px-6 py-12 flex flex-col items-center font-serif">
       {/* Academic Header */}
       <div className="w-full max-w-6xl border-b-2 border-amber-800 pb-6 mb-8 text-center">
-        <div className="text-center mb-2">
-          <span className="text-amber-700 text-sm tracking-wider uppercase">
-            Research Bibliography
-          </span>
-        </div>
+        <div className="text-center mb-2"></div>
         <h1 className="text-3xl md:text-4xl font-bold text-amber-900 mb-3 leading-tight">
           Academic Resources & References
         </h1>
         <p className="text-amber-600 text-sm">
           Curated Scholarly Materials on Gender Evolution in the Philippines
-        </p>
-      </div>
-
-      {/* Abstract Section */}
-      <div className="max-w-4xl bg-amber-100 border-l-4 border-amber-700 pl-6 py-4 mb-10 italic text-amber-800">
-        <p className="text-sm md:text-base">
-          <strong>Research Compendium:</strong> This comprehensive bibliography
-          provides authoritative sources for academic research on gender
-          evolution in Philippine society, including peer-reviewed publications,
-          policy analyses, documentary evidence, and specialized research
-          databases.
         </p>
       </div>
 
@@ -177,23 +162,6 @@ function Resources() {
           citation.
         </p>
       </div>
-
-      {/* Academic Footer */}
-      <footer className="mt-16 w-full max-w-4xl border-t-2 border-amber-800 pt-6 text-center text-amber-600 text-sm">
-        <div className="mb-4">
-          <p className="font-semibold text-amber-700">
-            Bibliographic Standards
-          </p>
-          <p className="text-xs mt-1">
-            APA Citation Style • Peer-Reviewed Sources • Academic Databases •
-            Government Publications • International Research
-          </p>
-        </div>
-        <p className="text-amber-500">
-          &copy; 2025 Gender Evolution Academic Research. This bibliography may
-          be cited for scholarly purposes.
-        </p>
-      </footer>
     </div>
   );
 }

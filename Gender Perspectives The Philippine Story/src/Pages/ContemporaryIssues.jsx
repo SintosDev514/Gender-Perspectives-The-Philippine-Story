@@ -1,4 +1,6 @@
 import React from "react";
+import w from "../assets/imges/w.JPG";
+import ww from "../assets/imges/wW.JPG";
 
 function ContemporaryIssues() {
   return (
@@ -18,37 +20,12 @@ function ContemporaryIssues() {
         </p>
       </div>
 
-      {/* Abstract Section */}
-      <div className="max-w-4xl bg-amber-100 border-l-4 border-amber-700 pl-6 py-4 mb-10 italic text-amber-800">
-        <p className="text-sm md:text-base">
-          <strong>Abstract:</strong> This research examines contemporary gender
-          issues in modern Filipino society, analyzing progress in
-          gender-responsive policies, women's empowerment, LGBTQIA+ rights
-          advocacy, and persistent structural barriers to full gender equality
-          and social inclusion.
-        </p>
-      </div>
-
-      {/* Featured Image with Academic Caption */}
-      <figure className="max-w-3xl mb-12">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/4/42/SOGIE_LGBT_rally_at_People_Power_Monument.jpg"
-          alt="LGBTQIA+ rights demonstration at People Power Monument"
-          className="rounded-lg shadow-md w-full border-2 border-amber-200"
-          loading="lazy"
-        />
-        <figcaption className="text-center text-amber-600 text-sm mt-2 italic">
-          Figure 1: SOGIE Equality Rally at People Power Monument, demonstrating
-          contemporary gender advocacy
-        </figcaption>
-      </figure>
-
       {/* Content */}
-      <div className="max-w-4xl space-y-14 text-amber-900 text-base md:text-lg leading-relaxed">
-        {/* Section 1 */}
+      <div className="max-w-4xl space-y-14 text-amber-900 text-base md:text-lg leading-relaxed text-justify">
+        {/* Gender Equality & Policy */}
         <section className="bg-white p-6 rounded-lg shadow-sm border border-amber-200">
           <h2 className="text-xl md:text-2xl font-bold text-amber-800 mb-4 pb-2 border-b border-amber-200">
-            1. Gender Equality & Policy Institutionalization
+            Gender Equality & Policy Institutionalization
           </h2>
           <p className="mb-3">
             The Philippines has demonstrated significant progress in
@@ -68,22 +45,22 @@ function ContemporaryIssues() {
           </p>
         </section>
 
-        {/* Section 2 */}
+        {/* Women's Empowerment */}
         <section className="bg-white p-6 rounded-lg shadow-sm border border-amber-200">
           <h2 className="text-xl md:text-2xl font-bold text-amber-800 mb-4 pb-2 border-b border-amber-200">
-            2. Women's Empowerment: Employment & Political Representation
+            Women's Empowerment: Employment & Political Representation
           </h2>
 
           <figure className="float-right ml-6 mb-4 w-72">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Filipina_women_industrial_workers.jpg"
+              src={ww}
               alt="Filipina women in industrial employment sectors"
               className="rounded-lg shadow-md w-full border border-amber-200"
               loading="lazy"
             />
             <figcaption className="text-amber-600 text-xs mt-1 italic">
-              Figure 2: Filipina workers in industrial sectors, demonstrating
-              occupational diversity
+              Filipina workers in industrial sectors, demonstrating occupational
+              diversity
             </figcaption>
           </figure>
 
@@ -101,22 +78,22 @@ function ContemporaryIssues() {
           </p>
         </section>
 
-        {/* Section 3 */}
+        {/* LGBTQIA+ Rights */}
         <section className="bg-white p-6 rounded-lg shadow-sm border border-amber-200">
           <h2 className="text-xl md:text-2xl font-bold text-amber-800 mb-4 pb-2 border-b border-amber-200">
-            3. LGBTQIA+ Rights: Advocacy and Social Integration
+            LGBTQIA+ Rights: Advocacy and Social Integration
           </h2>
 
           <figure className="mx-auto mb-4 max-w-2xl">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Metro_Manila_Pride_2019.jpg"
+              src={w}
               alt="Metro Manila Pride March 2019 participation"
               className="rounded-lg shadow-md w-full border border-amber-200"
               loading="lazy"
             />
             <figcaption className="text-amber-600 text-xs mt-1 italic">
-              Figure 3: Metro Manila Pride March 2019, illustrating growing
-              visibility of LGBTQIA+ advocacy
+              Metro Manila Pride March 2019, illustrating growing visibility of
+              LGBTQIA+ advocacy
             </figcaption>
           </figure>
 
@@ -142,19 +119,18 @@ function ContemporaryIssues() {
             <div className="w-full aspect-video border border-amber-800">
               <iframe
                 className="w-full h-full"
-                src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                src="https://www.youtube.com/embed/DqpqrwYaMnM?si=GVSrPOdDApC9Otse"
                 title="Academic documentary on contemporary gender issues in the Philippines"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
             </div>
           </div>
         </section>
 
-        {/* Section 4 */}
+        {/* Persistent Structural Challenges */}
         <section className="bg-white p-6 rounded-lg shadow-sm border border-amber-200">
           <h2 className="text-xl md:text-2xl font-bold text-amber-800 mb-4 pb-2 border-b border-amber-200">
-            4. Persistent Structural Challenges: Inequality & Intersectionality
+            Persistent Structural Challenges: Inequality & Intersectionality
           </h2>
           <p className="mb-3">
             Despite measurable progress, significant gender disparities endure
@@ -172,9 +148,6 @@ function ContemporaryIssues() {
 
         {/* Research Conclusion */}
         <section className="bg-amber-100 p-6 rounded-lg border-l-4 border-amber-700">
-          <h3 className="text-lg md:text-xl font-bold text-amber-800 mb-3">
-            Research Implications
-          </h3>
           <p className="text-amber-800">
             Contemporary gender issues in the Philippines reflect a complex
             interplay of progressive policy implementation, evolving social
@@ -189,9 +162,6 @@ function ContemporaryIssues() {
       {/* Academic Footer */}
       <footer className="mt-16 w-full max-w-4xl border-t-2 border-amber-800 pt-6 text-center text-amber-600 text-sm">
         <div className="mb-4">
-          <p className="font-semibold text-amber-700">
-            Research Sources & Methodologies
-          </p>
           <p className="text-xs mt-1">
             Government Policy Analysis • Demographic Studies • Social Movement
             Research • Contemporary Academic Publications • Advocacy
