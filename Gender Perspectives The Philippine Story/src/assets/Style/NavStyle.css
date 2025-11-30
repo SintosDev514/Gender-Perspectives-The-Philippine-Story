@@ -1,4 +1,4 @@
-.holder {
+.nav-container {
   position: fixed;
-  font-family: "Franklin Gothic Medium", "Arial Narrow";
+  z-index: 100;
 }
