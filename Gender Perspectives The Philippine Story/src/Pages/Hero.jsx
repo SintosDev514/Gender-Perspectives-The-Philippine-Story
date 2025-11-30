@@ -15,18 +15,6 @@ function Hero() {
       role="banner"
       aria-labelledby="hero-heading"
     >
-      {/* Logo Container */}
-      <div className="hero-logo-container ">
-        <img
-          src={logs}
-          alt="Gender Evolution Philippines - Site Logo"
-          className="hero-logo"
-          width={320}
-          height={260}
-          loading="eager"
-        />
-      </div>
-
       {/* Content Container */}
       <div className="hero-content">
         <h1 id="hero-heading" className="hero-title">
